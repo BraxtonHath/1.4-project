@@ -18,25 +18,33 @@ body{
 }
 
 header{
-  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");
-  background-size: auto;
-  height: 500px;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background-color: red;
+  height: 400px
+  /*position:
+  display: block;
+  height: 300px;
+  width: 1250px;
+  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");*/
+
 }
+
+.site-header{
+  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");
+background-size: 100% 400px;
+background-position: top;
+}
+
 
 .main-heading{
   color:white;
-  position: relative;
+  position: absolute;
   font-family: "Poiret One";
   font-size: 60px;
   font-weight: 400;
   text-align: center;
   font-style: normal;
-  right: 100px;
-  top: 300px;
+  left: 300px;
+  top: 150px;
 }
 
 .logo{
@@ -44,7 +52,7 @@ header{
   max-width: 150px;
   max-height: 195px;
   filter: invert();
-  position: fixed;
+  position: absolute;
   top: 150px;
   left: 907px
 }
@@ -69,45 +77,81 @@ header{
   font-style: normal;
 }
 
+.site-imgs{
+  text-align: center;
+
+}
+
 #left-img{
   background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/left-img.jpg');
-  background-size: 100px 200px;
+  background-size: 100% 100%;
   display: inline-block;
-  width: 100px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   content:""
 }
 
 #middle-img{
   background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/middle-img.jpg');
-  background-size: 100px 200px;
+  background-size: 100% 100%;
   display: inline-block;
-  width: 100px;
-  height: 200px;
-  content:""
+  width: 300px;
+  height: 300px;
+  content:"";
+  margin-left: 20px;
+  margin-right: 20px
   }
 
 #right-img{
   background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/right-img.jpg');
-  background-size: 100px 200px;
+  background-size: 100% 100%;
   display: inline-block;
-  width: 100px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   content:""
+}
+
+.primary-text{
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 41px;
+  font-family: "Poiret One";
+  color: white;
+  padding-left: 300px;
+  padding-right: 300px
 }
 
 .callout-wrapper{
   background-color: #65976c;
   height: 200px;
-  text-align: center;
-  color: white;
-  font-family: "Oleo Script";
-  font-size: 50px;
-  padding: 0 auto;
+
+
 }
 
 .contact-msg{
+  text-align: center;
+  font-family: "Oleo Script";
 
 }
 
-.contact
+.contact-phone{
+  text-align: center;
+  font-size: 160%;
+  margin-bottom: 10px
+}
+
+.contact-email{
+  text-align: center;
+  font-size: 160%;
+  margin-bottom: 10px
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: #363636;
+  padding: 30px;
+  font-family: "Oleo Script"
+}
