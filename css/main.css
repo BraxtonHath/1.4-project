@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Oleo Script";
+  src: url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  font-family: "Poiret One";
+  src: url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding:0
+
+}
+
+header{
+  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");
+  background-size: auto;
+  height: 500px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.main-heading{
+  color:white;
+  position: relative;
+  font-family: "Poiret One";
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  right: 100px;
+  top: 300px;
+}
+
+.logo{
+  content: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/logo.png");
+  max-width: 150px;
+  max-height: 195px;
+  filter: invert();
+  position: fixed;
+  top: 150px;
+  left: 907px
+}
+
+.divider{
+  position : relative;
+  top : 250px;
+  right :100px ;
+  max-width: 630px;
+
+}
+
+.subheader-msg{
+  color:white;
+  position: relative;
+  right: 100px;
+  top: 250px;
+  font-family: "Oleo Script";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+}
+
+#left-img{
+  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/left-img.jpg');
+  background-size: 100px 200px;
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+  content:""
+}
+
+#middle-img{
+  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/middle-img.jpg');
+  background-size: 100px 200px;
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+  content:""
+  }
+
+#right-img{
+  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/right-img.jpg');
+  background-size: 100px 200px;
+  display: inline-block;
+  width: 100px;
+  height: 200px;
+  content:""
+}
+
+.callout-wrapper{
+  background-color: #65976c;
+  height: 200px;
+  text-align: center;
+  color: white;
+  font-family: "Oleo Script";
+  font-size: 50px;
+  padding: 0 auto;
+}
+
+.contact-msg{
+
+}
+
+.contact
