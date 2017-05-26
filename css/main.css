@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "Oleo Script";
-  src: url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
   font-family: "Poiret One";
-  src: url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  src: url(https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
 }
 
 *{
@@ -24,12 +24,12 @@ header{
   display: block;
   height: 300px;
   width: 1250px;
-  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");*/
+  background-image: url("../img/header-background.jpg");*/
 
 }
 
 .site-header{
-  background-image: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/header-background.jpg");
+  background-image: url("../img/header-background.jpg");
 background-size: 100% 400px;
 background-position: top;
 }
@@ -48,7 +48,7 @@ background-position: top;
 }
 
 .logo{
-  content: url("/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/logo.png");
+  content: url("../img/logo.png");
   max-width: 150px;
   max-height: 195px;
   filter: invert();
@@ -83,7 +83,7 @@ background-position: top;
 }
 
 #left-img{
-  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/left-img.jpg');
+  background-image: url('../img/left-img.jpg');
   background-size: 100% 100%;
   display: inline-block;
   width: 300px;
@@ -92,7 +92,7 @@ background-position: top;
 }
 
 #middle-img{
-  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/middle-img.jpg');
+  background-image: url('../img/middle-img.jpg');
   background-size: 100% 100%;
   display: inline-block;
   width: 300px;
@@ -103,7 +103,7 @@ background-position: top;
   }
 
 #right-img{
-  background-image: url('/Users/braxtonhathaway/Code/Final Projects/1.4 CSS layout and fonts-Assessment/img/right-img.jpg');
+  background-image: url('../img/right-img.jpg');
   background-size: 100% 100%;
   display: inline-block;
   width: 300px;
@@ -112,7 +112,7 @@ background-position: top;
 }
 
 .primary-text{
-  
+
   display: flex;
   justify-content: center;
   text-align: center;
